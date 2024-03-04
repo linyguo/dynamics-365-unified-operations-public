@@ -26,7 +26,9 @@ Tracking sales by sales representative is a measure of the associates selling ab
 
 ## Configuring a worker to be a sales representative in POS
 
-When a worker is added to a sales group, they become eligible for commission and can be identified as a sales representative in the system. A worker who isn't in a sales group isn't eligible for commission and won't be listed as a sales representative in the point of sale (POS) application. In POS, the list of sales representatives is derived from all sales groups that contain at least one worker assigned to the store. The list is shown in POS as a combination of Sales group ID and Name (ID : Name). A default sales group can be assigned to workers to support scenarios where the retailer chooses to set the sales representative on POS lines automatically. Users can select from any sales group that the worker is a member of.
+When a worker is added to a sales group, they become eligible for commission and can be identified as a sales representative in the system. A worker who isn't in a sales group isn't eligible for commission and won't be listed as a sales representative in the point of sale (POS) application. In POS, the list of sales representatives is derived from all sales groups that contain at least one worker assigned to the store. The list is shown in POS as a combination of Sales group ID and Name (ID : Name). A default sales group can be assigned to workers to support scenarios where the retailer chooses to set the sales representative on POS lines automatically. The default commission sales group will not be set automatically when the worker is a sales representative of some commission sales group. Users can select from any sales group that the worker is a member of.
+
+[Sales commision rules](https://docs.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/tasks/set-up-sales-commission-rules) can be set for commission sales group.
 
 ## Functionality profile settings
 
